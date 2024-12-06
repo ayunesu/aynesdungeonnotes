@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  	  background-image: url('https://cdnb.artstation.com/p/assets/images/images/039/224/613/large/c-c-jiuguan4.jpg?1625292926');
+	  background-position: top-right;
+	    background-attachment: fixed;
+  background-position: center;
+}
+
+body::before {
+	
+}
+
+body img {
+	opacity: 0.8;
+}
+
+p {
+	color: #b3b3cc;
+	font-family: 'Macondo', cursive;
+}
+
+img {
+	filter: invert(100%);
+}
+
+content {
+	padding: 20px;
+	margin: 80%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color:  #1f1f2e;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-radius: 3px;
+    font-family: 'Macondo', cursive;
+}
+
+#logo {
+	filter: invert(100%);
+	opacity: 0.7;
+	margin-top: 5px;
+}
+
+li a {
+  display: block;
+  color: #b3b3cc;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #b3b3cc;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color:  #1f1f2e;
+  color: #b3b3cc;
+}
+
+li a.active img {
+  filter: invert(100%);
+	
+}
+
+.collapsible {
+}
+
+.content {
+  padding-left: 15px;
+  background-color: #3d3d5c;
+  color: white;
+  width: 100%;
+}
+
+.adventureLog {
+	background-image: url('https://i.imgur.com/h3jxW87.jpeg');
+	background-size: 100%;
+	background-position: top;
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	padding: 30px 30px 60px 30px;
+	border-color: #1f1f2e;
+	opacity: 0.9;
+	background-color:  #0a0a0f;
+	border-radius: 15px;
+	
+}
+
+.session{
+  font-family: 'Macondo', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+textarea {
+	color:   #8585ad;
+	background-color:  #29293d;
+	resize: none;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#campaign {
+  font-family: 'Splash', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 38px;
+  color:  #b3b3cc;
+}
+
+#button {
+	margin-top: 10px;
+	width: 20%;
+	float: center;
+	background-color:  #5c5c8a;
+	color: black;
+	padding: 10px;
+	border-style: none;
+	border-radius: 8px;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3px;
+  
+}
+
+#button:hover:not(.active) {
+  background-color:  #29293d;
+  color:  #b3b3cc;
+}
+
+.box {
+  margin: auto;
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#dark {
+	float: right;
+	margin: -15px 20px 15px 15px;
+	padding: 22px 10px 7px 10px;
+    background-color:  #29293d;
+    color:  #b3b3cc;
+    font-family: 'Macondo', cursive;
+    font-weight: 400;
+	border-style: none;
+	border-radius: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	  cursor: pointer;
+}
+
+#dark a {
+	text-decoration: none;
+	color: #b3b3cc;
+}
+
+#dark:hover {
+	margin-top: -5px;
+	transition: margin-top 0.2s ease-out;
+}
+
+#quill {
+	width: 8%;
+	position: absolute;
+		float: right;
+		margin-left: 240px;
+		opacity: 0.7;
+}
